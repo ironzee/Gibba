@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1857AD182E597A4B0069092B /* ThemeCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1857AD172E597A4B0069092B /* ThemeCompat.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1857AC522E595DCE0069092B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		1857AC442E595DCD0069092B /* Gibba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gibba.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1857AC512E595DCE0069092B /* GibbaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GibbaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1857AC5B2E595DCE0069092B /* GibbaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GibbaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1857AD172E597A4B0069092B /* ThemeCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeCompat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		1857AC3B2E595DCD0069092B = {
 			isa = PBXGroup;
 			children = (
+				1857AD172E597A4B0069092B /* ThemeCompat.swift */,
 				1857AC462E595DCD0069092B /* Gibba */,
 				1857AC542E595DCE0069092B /* GibbaTests */,
 				1857AC5E2E595DCE0069092B /* GibbaUITests */,
@@ -175,6 +181,7 @@
 				TargetAttributes = {
 					1857AC432E595DCD0069092B = {
 						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 					};
 					1857AC502E595DCE0069092B = {
 						CreatedOnToolsVersion = 16.3;
@@ -236,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1857AD182E597A4B0069092B /* ThemeCompat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DC573RYK96;
@@ -413,6 +422,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Zee.Gibba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -423,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DC573RYK96;
